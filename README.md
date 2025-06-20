@@ -1,135 +1,142 @@
-# 👩‍🏫 React.js Bootcamp – Full 12-Week Course
+# 👨‍🏫 React.js Bootcamp – Full 12-Week Course
 
-Welcome to the **React.js Bootcamp**, a 12-week journey from web development fundamentals to full-fledged React applications. This course is designed for beginners who are just stepping into the world of frontend development.
+Welcome to the **React.js Bootcamp**, a 12-week instructor-led journey from web development basics to building advanced, production-ready React applications. This course is designed for beginners with foundational knowledge of HTML, CSS, and JavaScript.
 
 ---
 
-## 📅 Course Outline
+## 📅 Course Schedule Overview
 
 ### 📖 Week 1: Web Fundamentals Crash Course
 - **Topics:**
-  - Introduction to HTML, CSS, and JavaScript
-  - Structure of a web page
-  - JS Variables, Data Types, Functions, Loops, and Conditionals
-- **Project:** Build a personal static webpage
-- **Homework:** Create a portfolio-style page (no frameworks)
+  - Overview of HTML, CSS, JavaScript
+  - HTML structure, basic CSS styling
+  - JS fundamentals: variables, functions, control flow
+- **Project:** Personal static webpage
+- **Homework:** Recreate a resume-style webpage
 
 ---
 
 ### 📖 Week 2: Responsive Design & JavaScript Deep Dive
 - **Topics:**
   - Semantic HTML, accessibility
-  - CSS Flexbox, Grid, Media Queries
-  - JavaScript ES6, DOM Manipulation, Events
-  - Async JS: Callbacks, Promises, `fetch()`, `async/await`
-- **Project:** Build a responsive, interactive webpage using JS
-- **Homework:** Add form, validation, and interactive elements
+  - CSS Flexbox, Grid, media queries
+  - Advanced JS: ES6 features, DOM manipulation, events
+  - Async JavaScript: Callbacks, Promises, `async/await`
+- **Project:** Responsive interactive form or gallery
+- **Homework:** Add interactivity and validations
 
 ---
 
-## 🚀 React.js Deep Dive (Weeks 3–12)
+## 🚀 Weeks 3–12: React.js Deep Dive
 
 ### 📘 Week 3: Introduction to React
 - **Topics:**
-  - What is React and why use it
-  - JSX syntax, Components
-  - Project Setup with Vite / CRA
-- **Project:** Profile card component
-- **Homework:** Convert HTML sections into React components
+  - What is React, SPA vs MPA
+  - JSX, components (functional), props
+  - Setting up React with Vite or CRA
+- **Hands-On:** Profile card component
+- **Homework:** Rebuild static webpage using components
 
 ---
 
-### 📘 Week 4: Props and State
+### 📘 Week 4: State, Events, and Component Communication
 - **Topics:**
-  - Understanding props and state (`useState`)
-  - Controlled components and event handling
-- **Project:** To-do App / Form Previewer
-- **Homework:** Add form validations and reset functionality
+  - `useState`, controlled inputs, event handling
+  - Prop drilling, data flow
+- **Project:** Interactive To-do list or live form preview
+- **Homework:** Add validation and conditional UI
 
 ---
 
-### 📘 Week 5: useEffect and API Integration
+### 📘 Week 5: useEffect and Data Fetching
 - **Topics:**
-  - Side effects with `useEffect`
-  - Fetching data from public APIs
-  - Loading and error states
-- **Project:** Weather App or Joke Generator
-- **Homework:** Add search/filter or pagination
+  - `useEffect` lifecycle behavior
+  - Fetching data from APIs with `fetch` or `axios`
+  - Managing loading and error states
+- **Project:** Weather App or News Feed
+- **Homework:** Add search and filtering
 
 ---
 
-### 📘 Week 6: React Router
+### 📘 Week 6: Routing with React Router
 - **Topics:**
-  - `react-router-dom` v6+: `Routes`, `Link`, `useParams`
-  - Route nesting, dynamic routes, 404 handling
-- **Project:** Multi-page Blog or Movie Info App
-- **Homework:** Add a dynamic detail page for content
+  - `react-router-dom`: `Routes`, `Link`, `useParams`
+  - Dynamic routes, nested routing, protected routes
+- **Project:** Blog or Recipe app with navigation
+- **Homework:** Add 404 route and layout wrapper
 
 ---
 
 ### 📘 Week 7: Global State with Context API
 - **Topics:**
-  - When and how to use `Context API`
-  - Sharing state across components
-- **Project:** Shopping Cart
+  - Creating and using React Context
+  - Avoiding prop drilling, managing theme/auth
+- **Project:** Shopping Cart App with Context
 - **Homework:** Add quantity control and total calculation
 
 ---
 
-### 📘 Week 8: Advanced State Management (Optional Redux)
+### 📘 Week 8: Advanced Hooks and Custom Hooks
 - **Topics:**
-  - `useReducer`, Redux introduction
-  - Redux Toolkit for state slice management
-- **Project:** Task Manager with Redux
-- **Homework:** Add filters and localStorage sync
+  - `useReducer`, `useRef`, `useMemo`, `useCallback`
+  - Creating custom reusable hooks
+- **Project:** Custom form hook + multi-step form
+- **Homework:** Add animation and error boundaries
 
 ---
 
-### 📘 Week 9: Performance Optimization & Patterns
+### 📘 Week 9: Component Design Patterns
 - **Topics:**
-  - `React.memo`, `useMemo`, `useCallback`
-  - Component patterns and custom hooks
-- **Project:** Multi-step form with validations
-- **Homework:** Extract form logic to custom hook
+  - Presentational vs Container components
+  - Compound components
+  - Render props and function-as-children pattern
+- **Project:** Tabs, Accordion, or Toggle components
+- **Homework:** Refactor form using compound pattern
 
 ---
 
-### 📘 Week 10: Testing React Applications
+### 📘 Week 10: State Abstractions with React Query
 - **Topics:**
-  - Intro to Jest and React Testing Library
-  - Testing components, async functions
-- **Project:** Add tests to a previous app
-- **Homework:** Write at least 3 test cases
+  - Redux Toolkit for global client-side state (UI, modals, filters)
+  - React Query (`@tanstack/react-query`) for server state:
+    - `useQuery`, `useMutation`
+    - Caching, background refetching, and pagination
+    - Query keys and invalidation
+- **Project:** Task Management App using React Query (API)
+- **Homework:** Add query-based filters, optimistic updates, and persist global UI state
 
 ---
 
-### 📘 Week 11–12: Capstone Project
-- **Project:** Build a complete React app with:
-  - Routing, API integration, global state, and optional tests
-- **Examples:** Recipe app, Task board, Mini CRM, Portfolio Builder
+### 📘 Week 11: Authentication & Deployment
+- **Topics:**
+  - Firebase or mock auth with protected routes
+  - Login/signup/logout + session handling
+  - Deployment with Netlify/Vercel
+  - Managing `.env` and feature flags
+- **Project:** Auth-enabled app + deployment
+- **Homework:** Deploy and secure your app
+
+---
+
+### 📘 Week 12: Final Capstone Project
+- **Requirements:**
+  - Routing, state management, API usage, authentication
+  - Bonus: Redux, custom hooks, testing, deployment
+- **Ideas:**
+  - Project Manager, Recipe Book, Budget Tracker, Blogging Platform
 - **Activities:**
-  - Week 11: Planning and development
-  - Week 12: Final deployment and presentation
+  - Planning & wireframing (first half)
+  - Building, testing, deploying (second half)
+  - Final project presentations + peer review
 
 ---
 
-## 📚 Course Logistics
+## 🏁 What You'll Gain
 
-- **Format:** 2 lectures + 1 hands-on lab/week
-- **Tools:** VSCode, GitHub, Netlify/Vercel, Postman, Figma (optional)
-- **Evaluation:**
-  - Weekly assignments & mini-projects
-  - Peer reviews
-  - Final project grading rubric (UX, code quality, completeness)
+By the end of this course, you’ll be able to:
+- Build modern, performant React applications
+- Understand component design, hooks, routing, and state management
+- Work with APIs and asynchronous flows
+- Deploy apps confidently and write testable, maintainable code
+- Build a real-world portfolio project and present it professionally
 
----
-
-## 🏁 What You’ll Achieve by End of Week 12
-- Build modern React apps with routing and state management
-- Consume external APIs and manage asynchronous logic
-- Understand component architecture, hooks, and testing
-- Deploy and showcase your project portfolio online
-
----
-
-Let’s code and grow together!
